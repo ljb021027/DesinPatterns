@@ -10,7 +10,7 @@ public class Singer implements Person{
 	
 	@Override	
 	public void sayhello(String string) {	
-		System.out.println("I am singing");	
+		System.out.println("I am singing " + string);	
 	}	
 	
 }	

@@ -8,6 +8,14 @@ import java.lang.reflect.Method;
  *	
  */	
 public class MyInvocationHandler implements InvocationHandler{	
+	MyInvocationHandler(){
+		
+	}
+	//可以通过构造方法传入被代理对象  也可以通过set方法传入
+	MyInvocationHandler(Object target){
+		this.target = target;
+	}
+	
 	public Object target;	
 	public void setTarget(Object target){	
 		this.target=target;	

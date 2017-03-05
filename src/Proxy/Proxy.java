@@ -1,5 +1,11 @@
 package Proxy;	
-	
+
+
+/**
+ * 代理类 
+ * @author ljb
+ *
+ */
 public class Proxy implements Sourceable {	
 	private Source source;	
 	

@@ -1,5 +1,11 @@
 package Proxy;	
-	
+
+
+/**
+ * 被代理类
+ * @author ljb
+ *
+ */
 public class Source implements Sourceable{	
 	
 	@Override	
