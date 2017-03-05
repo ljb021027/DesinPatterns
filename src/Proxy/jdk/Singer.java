@@ -1,5 +1,11 @@
 package Proxy.jdk;	
-	
+
+
+/**
+ * 被代理类  可以实现多个接口 
+ * @author ljb
+ *
+ */
 public class Singer implements Person{	
 	
 	@Override	
