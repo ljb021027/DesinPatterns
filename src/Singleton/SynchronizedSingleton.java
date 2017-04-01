@@ -5,7 +5,7 @@ package Singleton;
  *	
  */	
 public class SynchronizedSingleton {	
-	private SynchronizedSingleton synSingleton;	
+	private static volatile SynchronizedSingleton synSingleton;	
 		
 	private SynchronizedSingleton(){	
 			
