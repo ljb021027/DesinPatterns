@@ -1,13 +1,17 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.LinkedHashMap;	
 import java.util.Map;	
 	
 public class test2 {	
-	public static void main(String[] args) {	
+	public static void main(String[] args) throws FileNotFoundException {	
 		A a = new B();	
 //		Map map =new LinkedHashMap();	
 //		map.get(key)	
 //		map.putAll(m);	
 		A[] a1={new A(),new A(),new A()};	
+		String aa ="";
+		FileInputStream f = new FileInputStream(aa);
 	}	
 }	
 	

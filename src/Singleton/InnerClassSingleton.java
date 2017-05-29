@@ -1,9 +1,14 @@
 package Singleton;	
 	
 public class InnerClassSingleton {	
+	public static void main(String[] args) {
+		System.out.println(InnerClassSingleton.a);
+	}
+	
+	public static String a = "ljb";
 	/* 私有构造方法，防止被实例化 */	
 	private InnerClassSingleton() {	
-	
+		System.out.println(11);
 	}	
 	
 	/* 获取实例 */	
