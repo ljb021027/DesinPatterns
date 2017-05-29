@@ -34,9 +34,6 @@ public class InnerClassSingleton {
 		return getInstance();	
 	}
 	
-	public static void main(String[] args) {
-		
-	}
 }	
 
 class test{
